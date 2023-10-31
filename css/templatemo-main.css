@@ -160,6 +160,20 @@ body {
   font-size: 100%;
 }
 
+@media (max-width: 500px){
+	#navbar {
+	  display: none;
+	}
+
+	#slideshow {
+		display: none;
+	}
+
+	#message {
+	  display: block;
+	}
+  }
+
 nav {
 	top: 10vh;
 	bottom: 10vh;
@@ -286,16 +300,16 @@ nav a:hover::before {
   background: rgba(0, 0, 0, 0.5);
 }
 
-/*
+
 .content::-webkit-scrollbar {
   width: 5px;
   height: 8px;
   background-color: rgba(0, 0, 0, 0.5);
-} */
+}
 /* Add a thumb */
-/* .content::-webkit-scrollbar-thumb {
+.content::-webkit-scrollbar-thumb {
     background: rgba(250, 250, 250, 0.5);
-} */
+}
 
 .slides .slide:nth-child(1) {
   background-image: url(../img/first_bg.jpg);
